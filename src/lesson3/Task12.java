@@ -6,7 +6,6 @@ public class Task12 {
     public static void main(String[] args) {
         int number = 0;
         String cmd;
-        boolean flag = true;
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите одну из трёх команд: increase, decrease или exit");
         do {
@@ -22,12 +21,11 @@ public class Task12 {
                     break;
                 case "exit":
                     System.out.println("Вот что получилось ----> " + number );
-                    flag = false;
                     break;
                 default:
                     System.out.println("Введенная неверная команда. Попробуйте ещё раз");
 
             }
-        }while (flag);
+        }while (!cmd.equals("exit"));
     }
 }
