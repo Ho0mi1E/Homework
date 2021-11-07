@@ -5,8 +5,13 @@ import java.util.Scanner;
 public class Task1{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Сколько чисел Фиббоначи вы хотите?");
         int count = sc.nextInt();
-        int firstN = 1;
+        if (count == 0){
+            System.out.println("Ну и зачем я вам нужен(");
+            return;
+        }
+        int firstN = 0;
         int secondN = 1;
         int thirdN;
         System.out.print (firstN + " ");
