@@ -9,7 +9,7 @@ public class Task4 {
         System.out.println("Какова длина массива?");
         int length = sc.nextInt();
         int[] IntArray = new int[length];
-        System.out.println("ведите все элеенты массива");
+        System.out.println(" Введите все элеенты массива");
         int counter = 0;
 
         for (int i = 0; i < length ; i++) {
