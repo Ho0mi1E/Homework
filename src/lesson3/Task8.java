@@ -4,7 +4,7 @@ public class Task8 {
     public static void main(String[] args) {
         int[][] array = {{1, 1, 1, 1, 4, 3},
                          {2, 3, 4, 4, 4, 1},
-                         {3, 1 ,1 ,1}};
+                         {3, 1 ,1 ,1},{2,3,434,4545,33,3,3,3,3,3,3,3}};
         int longestArray = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i].length > longestArray){
@@ -12,7 +12,6 @@ public class Task8 {
             }
         }
         int[] sum = new int[longestArray];
-        System.out.println(longestArray);
         for ( int i = 0; i < array.length; i++ ){
             for (int j = 0; j < array[i].length; j++){
                 sum[j] +=array[i][j];
