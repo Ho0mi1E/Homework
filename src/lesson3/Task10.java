@@ -14,7 +14,8 @@ public class Task10 {
                 zero++;
             }
         }
-        for (int i = zero; i < array.length; i++) {
+        int afterOne = zero;
+        for (int i = afterOne; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {
                 if (array[i] == array[j] && comp != array[i]){
                     System.out.print(array[i] + " ");
