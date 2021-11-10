@@ -8,14 +8,14 @@ public class Task4 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Какова длина массива?");
         int length = sc.nextInt();
-        int[] IntArray = new int[length];
+        int[] intArray = new int[length];
         System.out.println(" Введите все элементы массива");
         int counter = 0;
 
         for (int i = 0; i < length ; i++) {
-            IntArray[i] = sc.nextInt();
-            if (IntArray[i] % 2 == 0) {
-                counter += IntArray[i];
+            intArray[i] = sc.nextInt();
+            if (intArray[i] % 2 == 0) {
+                counter += intArray[i];
         }
 
 

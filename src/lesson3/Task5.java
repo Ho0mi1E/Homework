@@ -11,15 +11,15 @@ public class Task5 {
         int length = sc.nextInt();
         int[] IntArray = new int[length];
         System.out.println("ведите все элементы массива");
-        int b = 0;
+        int maxValue = 0;
 
         for (int i = 0; i < length; i++) {
             IntArray[i] = sc.nextInt();
-            if (IntArray[i] > b){
-                b = IntArray[i];
+            if (IntArray[i] > maxValue){
+                maxValue = IntArray[i];
             }
         }
-        System.out.println(b);
+        System.out.println(maxValue);
 
 
 
