@@ -1,5 +1,7 @@
 package lesson4.task5;
 
+import lesson5.task2.Store;
+
 public class NotifierHandler {
     private Notifier[] notifiers;
 
